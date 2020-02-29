@@ -1,0 +1,22 @@
+.info {
+  a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    &.singer {
+      color: #999;
+    }
+    &:hover {
+      color: #31c27c;
+    }
+  }
+  span {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+  }
+  .line {
+    margin: 0 5px;
+  }
+}

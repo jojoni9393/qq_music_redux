@@ -1,0 +1,73 @@
+.mod_index_tab_wrap {
+  position: relative;
+
+  .left_btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: -10px;
+    border: 1px solid #c9c9c9;
+    color: #000;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-right: 6px;
+    padding: 0 23px;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    &:hover {
+      background-color: #ededed;
+      color: #333;
+    }
+
+    i {
+      width: 13px;
+      height: 16px;
+      background-position: -60px -220px;
+      display: inline-block;
+      margin-right: 6px;
+      vertical-align: -3px;
+    }
+  }
+  .right_btn {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    i {
+      display: inline-block;
+      width: 7px;
+      height: 12px;
+      background-position: -120px -40px;
+      margin-left: 6px;
+    }
+    &:hover {
+      color: #31c27c;
+      i {
+        background-position: -120px -60px;
+      }
+    }
+  }
+  .mod_index_tab {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 24px;
+      font-size: 15px;
+      color: #333;
+      cursor: pointer;
+      &:hover {
+        color: #31c27c;
+      }
+      &.active {
+        color: #31c27c;
+      }
+    }
+  }
+}

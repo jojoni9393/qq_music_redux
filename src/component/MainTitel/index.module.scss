@@ -1,0 +1,33 @@
+.wrap_main_title {
+  position: relative;
+  width: 100%;
+  .main_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 4.16667%;
+    padding-bottom: 2%;
+    color: rgb(51, 51, 51);
+  }
+  .right_btn {
+    position: absolute;
+    right: 0;
+    top: 65px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    i {
+      display: inline-block;
+      width: 7px;
+      height: 12px;
+      background-position: -120px -40px;
+      margin-left: 6px;
+    }
+    &:hover {
+      color: #31c27c;
+      i {
+        background-position: -120px -60px;
+      }
+    }
+  }
+}
